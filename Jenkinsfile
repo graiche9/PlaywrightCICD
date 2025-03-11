@@ -41,7 +41,7 @@ pipeline{
                    // sh 'npx playwright test --reporter=junit --output=test-results.xml'
                    // sh 'npx playwright test --reporter=junit --output=test-results'
                    // sh 'npx playwright test --reporter=junit --output=test-results'
-                    sh 'npx playwright test'
+                    sh 'npx playwright test '
                 }
             }
         }
@@ -49,7 +49,7 @@ pipeline{
         post {
 
             always {
-                junit 'test-results/junit.xml' 
+                junit '**/results.xml' 
             }
         }
 
