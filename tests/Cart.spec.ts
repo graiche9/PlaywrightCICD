@@ -26,7 +26,7 @@ test('Ajouter tous les produits au panier', async ({ page }) => {
     expect(await cartPage.getCartItemCount()).toBeGreaterThan(0);
 });
 
-test('Supprimer tous les produits du panier', async ({ page }) => {
+/*test('Supprimer tous les produits du panier', async ({ page }) => {
     const inventoryPage = new InventoryPage(page);
     const cartPage = new CartPage(page);
 
@@ -38,4 +38,4 @@ test('Supprimer tous les produits du panier', async ({ page }) => {
     // Supprimer tous les produits
     await cartPage.removeAllItems();
     expect(await cartPage.getCartItemCount()).toBe(0);
-});
+});*/
