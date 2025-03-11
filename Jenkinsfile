@@ -46,12 +46,13 @@ pipeline{
             }
         }
 
+
+
+    }     
         post {
 
             always {
                 junit '**/results.xml' 
             }
-        }
-
-    }   
+        } 
 }
