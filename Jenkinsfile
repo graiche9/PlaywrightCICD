@@ -13,7 +13,7 @@ pipeline{
             }
         }
 
-        
+/*        
         stage('Run Playwright Tests') {
             steps {
                 script {
@@ -21,6 +21,7 @@ pipeline{
                 }
             }
         }
+*/
 
 /*
         stage('Generate Report') {
@@ -36,17 +37,19 @@ pipeline{
             steps {
                 script {
                     //sh 'npx playwright test'
-                    sh 'npx playwright test --reporter=junit --output=./results.xml'
+                   // sh 'npx playwright test --reporter=junit --output=./results.xml'
                    // sh 'npx playwright test --reporter=junit --output=test-results.xml'
                    // sh 'npx playwright test --reporter=junit --output=test-results'
+                   // sh 'npx playwright test --reporter=junit --output=test-results'
+                    sh 'npx playwright test'
                 }
             }
         }
 
-        stage('Publish JUnit Report') {
+        post {
 
-            steps {
-                    junit '**/results.xml' 
+            always {
+                junit 'test-results/junit.xml' 
             }
         }
 
