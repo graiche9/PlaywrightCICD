@@ -12,7 +12,6 @@ pipeline{
                 sh 'npm ci'
             }
         }
-
 /*        
         stage('Run Playwright Tests') {
             steps {
@@ -36,18 +35,11 @@ pipeline{
         stage('Generate Report Junit') {
             steps {
                 script {
-                    //sh 'npx playwright test'
-                   // sh 'npx playwright test --reporter=junit --output=./results.xml'
-                   // sh 'npx playwright test --reporter=junit --output=test-results.xml'
-                   // sh 'npx playwright test --reporter=junit --output=test-results'
-                   // sh 'npx playwright test --reporter=junit --output=test-results'
+
                     sh 'npx playwright test '
                 }
             }
         }
-
-
-
     }     
         post {
 

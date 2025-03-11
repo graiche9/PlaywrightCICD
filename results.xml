@@ -1,32 +1,77 @@
-<testsuites id="" name="" tests="9" failures="0" skipped="0" errors="0" time="20.120573">
-<testsuite name="Cart.spec.ts" timestamp="2025-03-11T12:44:59.702Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.399" errors="0">
-<testcase name="Ajouter tous les produits au panier" classname="Cart.spec.ts" time="1.399">
+<testsuites id="" name="" tests="9" failures="0" skipped="0" errors="0" time="27.779366000000003">
+<testsuite name="Cart.spec.ts" timestamp="2025-03-11T12:53:20.319Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.641" errors="0">
+<testcase name="Ajouter tous les produits au panier" classname="Cart.spec.ts" time="10.641">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Cart-Ajouter-tous-les-produits-au-panier-chromium\trace.zip]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="login.spec.ts" timestamp="2025-03-11T12:44:59.702Z" hostname="chromium" tests="2" failures="0" skipped="0" time="1.87" errors="0">
-<testcase name="Login réussi avec un utilisateur valide" classname="login.spec.ts" time="1.025">
+<testsuite name="login.spec.ts" timestamp="2025-03-11T12:53:20.319Z" hostname="chromium" tests="2" failures="0" skipped="0" time="17.553" errors="0">
+<testcase name="Login réussi avec un utilisateur valide" classname="login.spec.ts" time="8.777">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login-Login-réussi-avec-un-utilisateur-valide-chromium\trace.zip]]
+]]>
+</system-out>
 </testcase>
-<testcase name="Échec de connexion avec un mot de passe incorrect" classname="login.spec.ts" time="0.845">
-</testcase>
-</testsuite>
-<testsuite name="Cart.spec.ts" timestamp="2025-03-11T12:44:59.702Z" hostname="firefox" tests="1" failures="0" skipped="0" time="7.631" errors="0">
-<testcase name="Ajouter tous les produits au panier" classname="Cart.spec.ts" time="7.631">
-</testcase>
-</testsuite>
-<testsuite name="login.spec.ts" timestamp="2025-03-11T12:44:59.702Z" hostname="firefox" tests="2" failures="0" skipped="0" time="15.294" errors="0">
-<testcase name="Login réussi avec un utilisateur valide" classname="login.spec.ts" time="8.347">
-</testcase>
-<testcase name="Échec de connexion avec un mot de passe incorrect" classname="login.spec.ts" time="6.947">
-</testcase>
-</testsuite>
-<testsuite name="Cart.spec.ts" timestamp="2025-03-11T12:44:59.702Z" hostname="webkit" tests="1" failures="0" skipped="0" time="10.483" errors="0">
-<testcase name="Ajouter tous les produits au panier" classname="Cart.spec.ts" time="10.483">
+<testcase name="Échec de connexion avec un mot de passe incorrect" classname="login.spec.ts" time="8.776">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login-Échec-de-connexion-avec-un-mot-de-passe-incorrect-chromium\trace.zip]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="login.spec.ts" timestamp="2025-03-11T12:44:59.702Z" hostname="webkit" tests="2" failures="0" skipped="0" time="13.206" errors="0">
-<testcase name="Login réussi avec un utilisateur valide" classname="login.spec.ts" time="6.475">
+<testsuite name="Cart.spec.ts" timestamp="2025-03-11T12:53:20.319Z" hostname="firefox" tests="1" failures="0" skipped="0" time="12.329" errors="0">
+<testcase name="Ajouter tous les produits au panier" classname="Cart.spec.ts" time="12.329">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Cart-Ajouter-tous-les-produits-au-panier-firefox\trace.zip]]
+]]>
+</system-out>
 </testcase>
-<testcase name="Échec de connexion avec un mot de passe incorrect" classname="login.spec.ts" time="6.731">
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2025-03-11T12:53:20.319Z" hostname="firefox" tests="2" failures="0" skipped="0" time="21.531" errors="0">
+<testcase name="Login réussi avec un utilisateur valide" classname="login.spec.ts" time="10.724">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login-Login-réussi-avec-un-utilisateur-valide-firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Échec de connexion avec un mot de passe incorrect" classname="login.spec.ts" time="10.807">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login-Échec-de-connexion-avec-un-mot-de-passe-incorrect-firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Cart.spec.ts" timestamp="2025-03-11T12:53:20.319Z" hostname="webkit" tests="1" failures="0" skipped="0" time="7.361" errors="0">
+<testcase name="Ajouter tous les produits au panier" classname="Cart.spec.ts" time="7.361">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Cart-Ajouter-tous-les-produits-au-panier-webkit\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2025-03-11T12:53:20.319Z" hostname="webkit" tests="2" failures="0" skipped="0" time="8.191" errors="0">
+<testcase name="Login réussi avec un utilisateur valide" classname="login.spec.ts" time="4.469">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login-Login-réussi-avec-un-utilisateur-valide-webkit\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Échec de connexion avec un mot de passe incorrect" classname="login.spec.ts" time="3.722">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login-Échec-de-connexion-avec-un-mot-de-passe-incorrect-webkit\trace.zip]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>
