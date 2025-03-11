@@ -13,11 +13,34 @@ pipeline{
             }
         }
 
-        stage('Run playwright Tests') {
+        
+        stage('Run Playwright Tests') {
             steps {
-                sh 'npx playwright test'
+                script {
+                    sh 'npx playwright test --trace on' 
+                }
             }
         }
+
+/*
+        stage('Generate Report') {
+            steps {
+                script {
+                    sh 'npx playwright test --reporter=html'
+                    sh 'npx playwright show-report' 
+                }
+            }
+        }
+*/
+        stage('Generate Report Junit') {
+            steps {
+                script {
+                    sh 'npx playwright test --reporter=junit --output=results.xml'
+                }
+            }
+        }
+
+
 
     }   
 }
