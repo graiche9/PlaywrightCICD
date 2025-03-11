@@ -35,8 +35,8 @@ pipeline{
         stage('Generate Report Junit') {
             steps {
                 script {
-                    sh 'npx playwright test'
-                   // sh 'npx playwright test --reporter=junit --output=results.xml'
+                    //sh 'npx playwright test'
+                    sh 'npx playwright test --reporter=junit --output=./results.xml'
                    // sh 'npx playwright test --reporter=junit --output=test-results.xml'
                    // sh 'npx playwright test --reporter=junit --output=test-results'
                 }
@@ -49,8 +49,6 @@ pipeline{
                     junit '**/results.xml' 
             }
         }
-
-
 
     }   
 }
