@@ -1,7 +1,7 @@
 pipeline{
     agent {
         docker {
-            image 'maven:3.8.6-openjdk-11'
+           image 'mcr.microsoft.com/playwright:v1.51.0-noble'
         }
     }
 
