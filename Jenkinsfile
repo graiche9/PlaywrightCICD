@@ -36,7 +36,9 @@ pipeline{
             steps {
                 script {
                    // sh 'npx playwright test --reporter=junit --output=results.xml'
-                    sh 'npx playwright test --reporter=junit --output=test-results.xml'
+                   // sh 'npx playwright test --reporter=junit --output=test-results.xml'
+                   sh 'rm -rf test-results && mkdir -p test-results' 
+                   sh 'npx playwright test --reporter=junit --output=test-results'
                 }
             }
         }
